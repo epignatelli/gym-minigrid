@@ -335,8 +335,8 @@ class Grid:
     tile_cache = {}
 
     def __init__(self, width, height):
-        assert width >= 3
-        assert height >= 3
+        assert width >= 1
+        assert height >= 1
 
         self.width = width
         self.height = height
